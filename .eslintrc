@@ -18,6 +18,12 @@
     "no-unused-vars": "warn",
     "no-console": "off",
     "consistent-return": "off",
-    "no-shadow": "warn"
+    "no-shadow": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
